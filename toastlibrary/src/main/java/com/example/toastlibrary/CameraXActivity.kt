@@ -24,7 +24,7 @@ import java.util.*
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-class CameraXActivity : AppCompatActivity() {
+public class CameraXActivity : AppCompatActivity() {
 
     private var imageCapture: ImageCapture? = null
     private lateinit var outputDirectory: File
